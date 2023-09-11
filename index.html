@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Actividad 2 Parte 2</title>
+</head>
+<body>
+    <div>
+        <div class="titulo">Regularidad de estudiante</div>   
+        <section class="actividad" id = newform>
+            <h4>Ingrese sus datos:</h4>
+            <input class = "formulario" type="number" id="dni" placeholder="Ingrese su DNI ">
+            <input class = "formulario" type="number" id="nota1" placeholder="Ingrese su nota del primer parcial ">
+            <input class = "formulario" type="number" id="nota2" placeholder="Ingrese su nota del segundo parcial ">
+            <input class = "formulario" type="number" id="asistencia" placeholder="Ingrese la cantidad de asistencias a clase ">
+
+            <input class = "botones" type="button" id="enviar1" value="ENVIAR" onclick="datos_alumno()">
+            
+        </section>
+            
+        <section  class="actividad2" id = newform2>
+            <h4 class = "formulario">Porcentaje de asistencias: </h4>
+            <h3 id="asistencias-porcentaje"> </h3>
+            <h4 class = "formulario">Estado del alumno: </h4>
+            <h3 id="estado-alumno"> </h3>
+        </section>
+        <script src="script.js"></script> 
+    </div>
+</body>
+</html>
